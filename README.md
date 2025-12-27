@@ -1,4 +1,4 @@
-# RVC to ONNX Conversion Tool
+# Momentum PyTorch RVC to ONNX Conversion Tool
 
 This project provides tools for converting PyTorch RVC (Retrieval-based Voice Conversion) models to ONNX format.
 
@@ -7,7 +7,7 @@ This project provides tools for converting PyTorch RVC (Retrieval-based Voice Co
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/OmarKanj/momentum-conversion-tool
 cd momentum-conversion-tool
 ```
 
@@ -37,9 +37,6 @@ python convert_rvc_official.py model.pth
 
 # Specify output file
 python convert_rvc_official.py model.pth output.onnx
-
-# Specify hidden channels (deprecated - auto-detected)
-python convert_rvc_official.py model.pth output.onnx --hidden-channels 768
 ```
 
 ## Model Information
@@ -66,4 +63,5 @@ The version is automatically detected from the model weights.
 ## Notes
 
 - The ONNX model requires proper preprocessing (phoneme extraction, F0 extraction)
+
 
