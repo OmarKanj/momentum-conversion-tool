@@ -1,0 +1,8 @@
+torch>=2.0.0
+onnx>=1.14.0
+onnxruntime>=1.15.0
+onnxscript>=0.1.0
+numpy>=1.23.5
+scipy==1.16.3
+# THIS IS FOR BUILDING A BINARY
+# nuitka==2.8.9
